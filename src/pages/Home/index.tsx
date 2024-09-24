@@ -32,8 +32,8 @@ const Home = () => {
           <h2 class="font-semibold text-[40px] md:text-[50px]">Creatures</h2>
           <Suspense
             fallback={
-              <div>
-                <For each={[...Array(10)]}>
+              <div class="flex flex-wrap justify-center gap-7 mt-5 md:mt-7">
+                <For each={[...Array(6)]}>
                   {() => <SkeletonCharacterCard />}
                 </For>
               </div>

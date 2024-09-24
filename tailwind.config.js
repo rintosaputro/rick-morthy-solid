@@ -14,7 +14,8 @@ export default {
         secondary: '#ff9702',
         danger: '#ff646f',
         warning: '#fff563',
-        success: '#21ad73'
+        success: '#21ad73',
+        mocca: '#ebdbb7'
       }
     },
   },
